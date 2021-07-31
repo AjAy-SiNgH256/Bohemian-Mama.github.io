@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Signatria';
+    src: url('Signatria-Regular.eot');
+    src: url('Signatria-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Signatria-Regular.woff2') format('woff2'),
+        url('Signatria-Regular.woff') format('woff'),
+        url('Signatria-Regular.ttf') format('truetype'),
+        url('Signatria-Regular.svg#Signatria-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

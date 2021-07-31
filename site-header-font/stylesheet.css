@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Briasantika';
+    src: url('Briasantika.eot');
+    src: url('Briasantika.eot?#iefix') format('embedded-opentype'),
+        url('Briasantika.woff2') format('woff2'),
+        url('Briasantika.woff') format('woff'),
+        url('Briasantika.ttf') format('truetype'),
+        url('Briasantika.svg#Briasantika') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
