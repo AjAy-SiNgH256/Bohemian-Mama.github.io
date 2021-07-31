@@ -656,40 +656,34 @@ body{
     align-items: center;
 }
 input[type="email"] {
-    width: 100%;
+    width: calc(100% - 53px);
     border: none;
     outline: none;
-    padding: 8px;
+    padding: 8px 38px 8px 15px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .footer-input {
     margin-top: 12px;
 }
 .input-section {
-    width: 95%;
-    display: flex;
-    flex-direction: row;
+    width: 100%;
 }
 .input-arrow-icon img {
-    width: 100%;
-    background-color: #fff;
-    padding: 8px 0;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
+    width: 22px;
     cursor: pointer;
+    display: block;
 }
 .input-section-items {
-    display: flex;
-    flex-direction: row;
+    position: relative;
 }
 .input-arrow-icon {
-    width: 5%;
-    display: flex;
-    flex-direction: row;
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .copyright-main-bg{
     background-color: #000;
