@@ -1,0 +1,402 @@
+@media only screen and (max-width:1210px){
+    .nav-items ul li a {
+        font-size: 12px;
+    }    
+    .nav-items ul li {
+        margin: 0 9px;
+    }
+}
+@media only screen and (max-width:1000px){
+    .header-b1,.header-b3 {
+        width: 25%;
+    }
+    .header-b2 {
+        width: 50%;
+    }
+    .carousel-main-bg {
+        padding: 120px 0 40px;
+    }
+    .boy-text-section p, .girl-text-section p {
+        font-size: 13px;
+        font-weight: 600;
+        margin: 15px 0;
+    }
+    .boy-button-block button, .girl-button-block button{
+        font-size: 15px;
+    }
+    .blog-text-section p {
+        font-size: 11px;
+        font-weight: 700;
+        padding: 10px 0;
+    }
+    .blog-text-section button, .right-content-button-block button {
+        font-size: 15px;
+    }
+    .blog-text-section h3 {
+        font-size: 18px;
+    }
+    .blog-text-section h5, .right-blog-text-section h5 {
+        color: #767676;
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .right-blog-text-section h3 {
+        font-size: 26px;
+    }
+    .right-blog-text-section p {
+        font-size: 12px;
+        font-weight: 700;
+        padding: 10px 0;
+    }
+    .footer-block h3 {
+        font-size: 12px;
+        padding-bottom: 12px;
+    }
+    .footer-block ul li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 10px;
+    }
+    .footer-block1-items h2 {
+        font-family: 'Signatria';
+        font-size: 32px;
+    }
+    .footer-block1-items p {
+        font-size: 11px;
+    }
+    .footer-block3-items-box2 p {
+        font-size: 10px;
+    }
+    .footer-block4-items p {
+        font-size: 10px;
+    }
+    .icon-block ul li a img {
+        width: 13px;
+    }
+    input[type="email"]{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:920px){
+    .nav-items ul li a {
+        font-size: 10px;
+    }
+    .shopping-block-content p {
+        font-size: 12px;
+        font-weight: 600;
+        padding: 15px 0;
+        line-height: 1.85;
+    }
+    .shopping-block-content h2 {
+        font-size: 26px;
+        margin-top: 35px;
+    }
+    .shopping-button button {
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    .carousel-main-bg {
+        padding: 65px 0 40px;
+    }
+    .carousel-items-content {
+        text-align: center;
+        margin: 0 10px;
+        position: relative;
+    }
+    .carousel-items-content h3 {
+        font-size: 14px;
+    }
+    .carousel-items-content p {
+        font-size: 11px;
+        padding-top: 5px;
+    }
+    .carousel-header h2 {
+        font-size: 30px;
+        margin-bottom: 13px;
+    }
+    .boy-text-section p, .girl-text-section p {
+        font-size: 10px;
+        font-weight: 600;
+        margin: 10px 0;
+        padding: 0 8px;
+    }
+    .boy-text-section, .girl-text-section{
+        padding: 0;
+    }    
+    .boy-text-section h2,.girl-text-section h2 {
+        font-size: 22px;
+    }
+    .boy-button-block button, .girl-button-block button {
+        font-size: 13px;
+    }
+    .products-header h2 {
+        font-size: 30px;
+        color: #625046;
+    }
+    .products-button-block button {
+        background-color: transparent;
+        border: none;
+        color: #625046;
+        font-size: 16px;
+    }
+    .products-items-content {
+        text-align: center;
+        color: #625046;
+        margin: 0 10px;
+    }
+    .products-items-content p {
+        font-size: 11px;
+        padding-top: 5px;
+    }
+    .products-items-content h3 {
+        font-size: 14px;
+    }
+    .shop-all-button {
+        padding: 36px 0 50px;
+    }
+    .shop-all-button button {
+        background-color: transparent;
+        border: none;
+        color: #625046;
+        font-size: 16px;
+    }
+    .blog-header h2 {
+        font-size: 30px;
+        color: #625046;
+    }
+    .blog-text-section h3 {
+        font-size: 15px;
+    }
+    .blog-text-section p {
+        font-size: 10px;
+        font-weight: 700;
+        padding: 10px 7px;
+    }
+    .blog-text-section button, .right-content-button-block button {
+        font-size: 13px;
+    }
+    .blog-text-section h5, .right-blog-text-section h5 {
+        color: #767676;
+        font-size: 7px;
+        font-weight: 500;
+    }
+    .right-blog-text-section h3 {
+        font-size: 22px;
+    }
+    .social-header h2 {
+        font-size: 30px;
+    }
+    .social-header button {
+        background-color: transparent;
+        border: none;
+        color: #000;
+        font-size: 16px;
+    }
+    .footer-main-bg {
+        background-color: #f2dccf;
+        padding: 40px 28px 56px;
+    }
+    .footer-block1-items p {
+        font-size: 10px;
+    }
+    .footer-common-block {
+        margin: 0 5px;
+    }
+    .footer-block ul li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 9px;
+    }
+    .footer-block3-items-box2 p {
+        font-size: 9px;
+    }
+    .footer-block4-items p {
+        font-size: 9px;
+    }
+    input[type="email"] {
+        font-size: 9px;
+    }
+    .input-arrow-icon img {
+        width: 15px;
+        cursor: pointer;
+        display: block;
+    }
+    .payment-icons ul li img {
+        width: 18px;
+    }
+}
+@media only screen and (max-width:820px){
+    .nav-items ul li a {
+        font-size: 9px;
+    }
+    .nav-items ul li a img {
+        width: 6px;
+        padding-left: 3px;
+    }
+    .header-b2 h2 {
+        font-family: 'Signatria';
+        font-size: 50px;
+        text-align: center;
+    }
+    .header-b3 ul li a img {
+        width: 13px;
+    }
+    .main-bg {
+        height: 560px;
+    }
+    .shopping-block-content h2 {
+        font-size: 22px;
+        margin-top: 26px;
+    }
+    .inverted-content h2 {
+        padding-top: 15px;
+    }
+    .carousel-header h2 {
+        font-size: 27px;
+        margin-bottom: 13px;
+    }
+    .header-button button {
+        background-color: transparent;
+        border: none;
+        color: #000;
+        font-size: 15px;
+
+    }
+    .carousel-items-content {
+        text-align: center;
+        margin: 0 8px;
+        position: relative;
+    }
+    .boy-girl-main-bg {
+        height: 425px;
+    }
+    .boy-text-section p, .girl-text-section p {
+        font-size: 9px;
+        font-weight: 600;
+        margin: 10px 0;
+        padding: 0 8px;
+    }
+    .boy-button-block button, .girl-button-block button {
+        font-size: 11px;
+    }
+    .boy-text-section h2, .girl-text-section h2 {
+        font-size: 20px;
+    }
+    .products-header h2 {
+        font-size: 27px;
+        color: #625046;
+    }
+    .products-header {
+        text-align: center;
+        padding: 45px 0;
+        line-height: 1.85;
+    }
+    .products-button-block button {
+        background-color: transparent;
+        border: none;
+        color: #625046;
+        font-size: 15px;
+    }
+    .products-items-content {
+        text-align: center;
+        color: #625046;
+        margin: 0 8px;
+    }
+    .shop-all-button button {
+        background-color: transparent;
+        border: none;
+        color: #625046;
+        font-size: 15px;
+    }
+    .blog-header h2 {
+        font-size: 27px;
+        color: #625046;
+    }
+    .blog-header button {
+        background-color: transparent;
+        border: none;
+        color: #625046;
+        font-size: 15px;
+    }
+    .blog-text-section p {
+        font-size: 9px;
+        font-weight: 700;
+        padding: 10px 7px;
+    }
+    .blog-text-section h3 {
+        font-size: 14px;
+    }
+    .blog-text-section button, .right-content-button-block button {
+        font-size: 10px;
+    }
+    .right-blog-text-section p {
+        font-size: 10px;
+        font-weight: 700;
+        padding: 10px 0;
+    }
+    .right-blog-text-section h3 {
+        font-size: 20px;
+    }
+    .social-header h2 {
+        font-size: 27px;
+    }
+    .social-header button {
+        background-color: transparent;
+        border: none;
+        color: #000;
+        font-size: 15px;
+    }
+    .social-header {
+        text-align: center;
+        padding: 40px 0;
+        line-height: 1.85;
+    }
+    .copyright-main-bg p {
+        color: rgb(202, 202, 202);
+        font-size: 9px;
+        padding: 12px 0;
+        text-align: center;
+    }
+    .footer-block1-items p {
+        font-size: 9px;
+    }
+    .footer-block1-items h2 {
+        font-family: 'Signatria';
+        font-size: 28px;
+    }
+    .icon-block ul li a img {
+        width: 10px;
+    }
+    .footer-block h3 {
+        font-size: 10px;
+        padding-bottom: 8px;
+    }
+    .footer-block ul li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 8px;
+    }
+    .footer-block ul li {
+        font-size: 8px;
+        font-weight: 450;
+        padding: 6px 0;
+    }
+    .footer-block3-items-box2 p {
+        font-size: 8px;
+    }
+    .footer-block4-items p {
+        font-size: 8px;
+    }
+    input[type="email"] {
+        font-size: 8px;
+        width: calc(100% - 35px);
+    border: none;
+    outline: none;
+    padding: 5px 25px 5px 10px;
+    }
+    .input-arrow-icon img {
+        width: 13px;
+        cursor: pointer;
+        display: block;
+    }
+}

@@ -50,15 +50,27 @@ body{
     align-items: center;
     padding: 20px 0 10px;
 }
+.header-b1,.header-b2,.header-b3 {
+    width: 33.33%;
+}
+.header-b3 ul li input {
+    border: 1px solid #000;
+    outline: none;
+    padding: 8px 12px;
+    font-size: 15px;
+    display: none;
+}
 .header-b2 h2{
     font-family: 'Signatria';
     font-size: 62px;
+    text-align: center;
 }
 .header-b3 ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
 }
 .header-b3 ul li{
     margin: 0 12px;
@@ -279,19 +291,29 @@ body{
     justify-content: space-around;
 }
 .boy-girl-block img{
+    width: 100%;
+}
+.girl-image-block,.boy-image-block{
     width: 50%;
 }
 .boy-block-content,.girl-block-content {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    background-color: #fff;
     margin: 0 12px;
 }
 .boy-text-section,.girl-text-section{
+    width: 50%;
     text-align: center;
     padding: 0 15px;
     line-height: 1.85;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boy-image-block img,.girl-image-block img {
+    display: block;
 }
 .boy-button-block button,.girl-button-block button{
     background-color: transparent;
@@ -438,10 +460,10 @@ body{
 }
 .blog-items-box {
     width: 100%;
-    background-color: #fff;
 }
 .blog-items-box-content img {
-    width: 50%;
+    width: 100%;
+    display: block;
 }
 .blog-items-content-right img {
     width: 100%;
@@ -456,7 +478,17 @@ body{
     display: flex;
     flex-direction: row;
 }
+.blog-items-image-block {
+    width: 50%;
+}
+.blog-container {
+    max-width: 1260px;
+    width: 95%;
+    margin: 0 auto;
+}
 .blog-text-section,.blog-box-text-section {
+    background-color: #fff;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -621,7 +653,10 @@ body{
     padding-bottom: 18px;
 }
 .footer-block1,.footer-block2,.footer-block3,.footer-block4{
-    width: 24%;
+    width: 25%;
+}
+.footer-common-block {
+    margin: 0 15px;
 }
 .footer-block2-items,.footer-block3-items{
     display: flex;

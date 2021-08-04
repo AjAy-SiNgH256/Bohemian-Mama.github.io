@@ -28,7 +28,8 @@
                     </div>
                     <div class="header-b3">
                         <ul>
-                            <li><a href="#"><img src="images/header/search.png" alt="icon"></a></li>
+                            <li><input type="search" autocomplete="off"/></li>
+                            <li><a href="#" class="search"><img src="images/header/search.png" alt="icon"></a></li>
                             <li><a href="#"><img src="images/header/admin.png" alt="icon"></a></li>
                             <li><a href="#"><img src="images/header/cart.png" alt="icon"></a></li>
                         </ul>
@@ -206,7 +207,9 @@
             <div class="boy-girl-block">
                 <div class="boy-block">
                     <div class="boy-block-content">
+                        <div class="boy-image-block">
                         <img src="images/boy.png" alt="boy-image">
+                    </div>
                         <div class="boy-text-section">
                             <h2>BOYS</h2>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
@@ -218,7 +221,9 @@
                 </div>
                 <div class="girl-block">
                     <div class="girl-block-content">
+                        <div class="girl-image-block">
                         <img src="images/girl.png" alt="girl-image">
+                    </div>
                         <div class="girl-text-section">
                             <h2>GIRLS</h2>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
@@ -282,6 +287,7 @@
         </div>
         </div>
         <div class="blog-main-bg">
+            <div class="blog-container">
             <div class="blog-block">
                 <div class="blog-header">
                     <h2>OUR BLOG</h2>
@@ -292,7 +298,9 @@
                         <div class="blog-items-content">
                             <div class="blog-items-box top-blog">
                                 <div class="blog-items-box-content">
+                                    <div class="blog-items-image-block">
                                     <img src="images/blog/blog-2.png" alt="image">
+                                </div>
                                     <div class="blog-text-section">
                                         <h5>Posted on Oct 04,2018</h5>
                                         <h3>LONDON FASHION WEEK</h3>
@@ -303,7 +311,9 @@
                             </div>
                             <div class="blog-items-box bottom-blog">
                                 <div class="blog-items-box-content reverse-blog">
+                                    <div class="blog-items-image-block">
                                     <img src="images/blog/blog-3.png" alt="image">
+                                </div>
                                     <div class="blog-text-section">
                                         <h5>Posted on Oct 04,2018</h5>
                                         <h3>LONDON FASHION WEEK</h3>
@@ -331,6 +341,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <div class="social-main-bg">
             <div class="social-main-block">
@@ -366,7 +377,7 @@
             <div class="footer-block">
                 <div class="footer-block-items">
                     <div class="footer-block1">
-                        <div class="footer-block1-items">
+                        <div class="footer-block1-items footer-common-block">
                             <h2>Bohemian Mama</h2>
                             <p>Contrary to popular belief,Lorem Ipsum is not simply<br>random text.It has roots in a piece</p>
                             <div class="icon-block">
@@ -379,7 +390,7 @@
                         </div>
                     </div>
                     <div class="footer-block2">
-                        <div class="footer-block2-items">
+                        <div class="footer-block2-items footer-common-block">
                             <div class="footer-block2-items-box1">
                                 <h3>COMPANY</h3>
                                 <ul>
@@ -400,7 +411,7 @@
                         </div>
                     </div>
                     <div class="footer-block3">
-                        <div class="footer-block3-items">
+                        <div class="footer-block3-items footer-common-block">
                             <div class="footer-block3-items-box1">
                                 <h3>SHOPPING</h3>
                                 <ul>
@@ -418,7 +429,7 @@
                         </div>
                     </div>
                     <div class="footer-block4">
-                        <div class="footer-block4-items">
+                        <div class="footer-block4-items footer-common-block">
                             <h3>NEWSLETTER</h3>
                             <p>Subscribe to get daily news & more gif</p>
                             <div class="footer-input">
@@ -454,6 +465,9 @@
     <script>
         $(document).ready(function(){
             $('.loader-block').fadeOut();
+            $('.header-b3 ul li .search').on('click',function(){
+                $('.header-b3 ul li input').fadeToggle(200);
+            });
         });
        
     </script>
